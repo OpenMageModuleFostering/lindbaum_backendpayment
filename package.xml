@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>lindbaum_backendpayment</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds a payment method only available for admin orders</summary>
+    <description>This very simple extension adds a payment method to your shop that is only available in the backend, when an admin edits or creates orders.&#xD;
+&#xD;
+The payment method can be customised in "name" (shown in invoices etc) and "New order status" (defaults to "Pending").</description>
+    <notes>Always backup before install. This extension is provided as is, no guarantees taken &amp; installation at your own risk. I will try to provide support when I find the time.</notes>
+    <authors><author><name>Lindbaum</name><user>Lindbaum</user><email>s.lindner@lindbaum.de</email></author></authors>
+    <date>2013-03-08</date>
+    <time>23:37:49</time>
+    <contents><target name="magecommunity"><dir name="Lindbaum"><dir name="BackendPayment"><dir name="Helper"><file name="Data.php" hash="b92297eb0878d9e0275e081235a35a61"/></dir><dir name="Model"><file name="BackendPayment.php" hash="fe24649396823bbf521fb74c24631d4a"/></dir><dir name="etc"><file name="config.xml" hash="446fae7146108ddbf73551c3fa506eef"/><file name="system.xml" hash="a99203f8cada069761d15286bacd3202"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Lindbaum_BackendPayment.xml" hash="b9956cc86b50922d308376b43e787c77"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
