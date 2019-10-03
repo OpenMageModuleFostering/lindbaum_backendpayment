@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/lindbaum_backendpayment",
+    "name": "OpenMageModuleFostering\/lindbaum_backendpayment",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Adds a payment method only available for admin orders",
     "authors": [
-    {
-        "name": "Lindbaum",
-        "email": "s.lindner@lindbaum.de"
-    }
-],
+        {
+            "name": "Lindbaum",
+            "email": "s.lindner@lindbaum.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
